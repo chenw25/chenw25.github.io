@@ -1,0 +1,275 @@
+/*
+Name:       Wenqiang Chen
+Student#:   1155437
+*/
+
+/*
+set margin color in web page
+*/
+html {
+    background-color: #f3cca3;
+}
+
+/*
+set margin and color for body
+*/
+body {
+    background-color: #f2f2f2;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    min-height: 100%;
+    min-width: 750px;
+    max-width: 1350px;
+}
+
+/*
+style for title text
+*/
+h {
+    color: white;
+    font-size: 120%;
+}
+
+/*
+set all font to san-serif
+*/
+* {
+    font-size: 100%;
+    font-family: sans-serif;
+
+}
+
+.nav {
+    height: auto;
+    overflow: auto;
+}
+
+ul {
+    margin: 10px 0 10px 0;
+    list-style: none;
+}
+
+.nav ul {
+    width: 100%;
+    list-style: none;
+    background-color: #800000;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/*
+style for footer with address
+*/
+.address {
+    text-align: center;
+    font-size: small;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: serif;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/*
+style for pizza image in home page
+*/
+.pizzaImg {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+/*
+center order form
+*/
+.orderForm {
+    text-align: center;
+}
+
+/*
+style for each label/input pair in order form
+*/
+.orderForm span {
+    display: inline-block;
+    margin: 10px auto 10px auto;
+}
+
+/*
+style for label in order form
+*/
+form.orderForm label {
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+/*
+style for text area in order form
+*/
+.orderForm textarea {
+    width: 200px;
+    height: 200px;
+    resize: none;
+}
+
+/*
+style for various input controls in order form
+*/
+form.orderForm input, form.orderForm select, form.orderForm textarea {
+    display: inline-block;
+    width: 200px;
+}
+
+/*
+    label style in pizza option radio group, uses important tag for precedence
+*/
+.radioLabel {
+    width: auto !important;
+}
+
+/*
+    radio control style in pizza option radio group, uses important tag for precedence
+*/
+.radioInput {
+    float: left;
+    width: auto !important;
+}
+
+.orderForm {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+style for nav bar
+*/
+.nav li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: large;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.nav li a:hover {
+    background-color: grey;
+}
+
+.nav li {
+    background-color: #800000;
+    width: 33.33%;
+    float: left;
+}
+
+/*
+div to wrap deals table in, shows border
+*/
+.deals {
+    margin: 0 40px 10px 40px;
+    border: 2px double #0b5b25;
+}
+
+/*
+style for deals table and column
+*/
+.deals table, .deals td {
+    word-break: keep-all;
+    margin: 1px;
+    border-collapse: collapse;
+    border: 2px double #0b5b25;
+}
+
+/*
+style deals table column
+*/
+.deals td {
+    width: 12.5%;
+    padding: 10px 5px 10px 5px;
+}
+
+.deals td h2 {
+    text-align: center;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.orderForm td:last-child {
+    text-align: left;
+}
+
+/*
+section is used for the body of the web page
+*/
+section.content {
+    border-bottom: solid 2px grey;
+    background-color: #f2f2f2;
+}
+
+/*
+header for body content
+*/
+section.content h1 {
+    padding-top: 20px;
+    font-size: 140%;
+    padding-bottom: 10px;
+    margin: 0 40px 0 40px;
+    font-weight: 500;
+}
+
+/*
+    style for all text
+*/
+section.content p {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/*
+    caption style for table in deals page
+*/
+section.content p2 {
+    text-align: center;
+    display: block;
+}
+
+/*
+title on every page
+*/
+.title {
+    background-color: #0b5b25;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*
+style for send/cancel button in orders page
+*/
+table.actionTable {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.actionTable td:first-child {
+    width: 50%;
+    text-align: right;
+}
+
+table.actionTable td:last-child {
+    width: 50%;
+    text-align: left;
+    padding-left: 100px;
+}
+
+table.actionTable button {
+    width: 150px;
+}
